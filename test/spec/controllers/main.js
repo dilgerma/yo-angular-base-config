@@ -10,7 +10,6 @@ describe('Controller: MainCtrl', function () {
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
-    throw new Error("FUCK!!!");
     scope = $rootScope.$new();
     MainCtrl = $controller('MainCtrl', {
       $scope: scope
